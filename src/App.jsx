@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -7,11 +6,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-      <>
-        <div className="bg-green-500 w-fit h-24 mt-6 mx-auto rounded-lg text-[3rem] place-content-center px-8">
+      <div class="bg-[url(./assets/images/kahoot.png)] h-full bg-cover bg-center">
+        <div className="w-fit h-24 mt-6 mx-auto rounded-lg text-[3rem] place-content-center px-8 bg-white/20 shadow-lg ring-1 ring-black/5">
           hello, this is blerp, laallalalalal, gooby goop
         </div>
-        <div className="absolute inset-x-0 bottom-0 h-[32.5rem] grid grid-cols-2 gap-4 p-4">
+        <div className="absolute bg-transparent inset-x-0 bottom-0 h-[32.5rem] grid grid-cols-2 gap-4 p-4">
           <div className="bg-[#E21B3C] rounded-md place-content-center p-12 h-[14.75rem]">
             <div class="w-0 h-0 
               border-l-[51.96px] border-l-transparent
@@ -30,7 +29,7 @@ function App() {
             <div class="w-[5.303rem] h-[5.303rem] bg-white"></div>
           </div>
         </div>
-      </>   
+      </div>   
   )
 }
 
